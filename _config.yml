@@ -23,12 +23,23 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /:categories/:title:output_ext
+      
+paginate: 10
+
+sass:
+    sass_dir: _scss
+    style: compressed
+
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-assets
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<div class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains "berita" or post.categories contains "tutorial" or post.categories contains "p" %}
+		<div class="post">
+			<time datetime="{{ post.date | date_to_xmlschema }}">
+				{{ post.date | date_to_string }}
+			</time>
+			<a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
+		</div>
+    {% endif %}
+{% endfor %}
+</div>

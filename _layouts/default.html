@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
+
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+	<div class="wrapper">
+	<div class="header  bg-white border-bottom">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white">
+				<a class="navbar-brand" href="{{ site.baseurl }}">
+					<img src="{{ site.baseurl }}public/img/idlaravel.svg" width="30" height="30" class="d-inline-block align-top" alt="{{ site.baseurl }}">
+					IDLARAVEL
+				</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/berita">Berita</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="/tutorial">Tutorial</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="/panduan">Panduan</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/tentang-kami">Tentang Kami</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="/kontak">Kontak</a>
+      </li>
+
+    </ul>
+  </div>
+			</nav>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					{{ content }}
+				</div>
+				<div class="col-md-4">
+					<div class="p-3 mb-3 bg-light rounded">
+					<h4 class="font-italic">idlaravel</h4>
+					<p class="mb-0">Tempat Belajar Laravel</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer bg-light border-top">
+		<div class="container">
+			<div class="text-center">
+				<a class="navbar-brand" href="{{ site.baseurl }}">
+					<img src="{{ site.baseurl }}public/img/idlaravel.svg" width="30" height="30" class="d-inline-block align-top" alt="{{ site.baseurl }}">
+				</a>
+			</div>
+			<div class="footer-link">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Active</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-credit  text-center">
+				<p>Designed and built with all the love in the world by <a href="https://github.com/sandipradana" target="_blank" rel="noopener">@sandipradana</a>. Maintained by the <a href="https://github.com/sandipradana">@sandipradana</a> with the help of <a href="https://github.com/idlaravel/idlaravel.github.io/graphs/contributors">our contributors</a>.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
